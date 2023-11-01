@@ -1,4 +1,8 @@
-const api ="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";
+require('dotenv').config();
+
+const api = process.env.MY_KEY;
+console.log("API Key:", api);
+
 document.addEventListener("DOMContentLoaded", function() {
     let bottom = document.querySelector(".bottom");
        let input = document.querySelector("#txt");
