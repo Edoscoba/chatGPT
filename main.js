@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const api = config.MY_KEY;
+=======
+const api ="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";
+>>>>>>> 7f0080f7b66f3e00b5d04cff6ba4f6a932853fb0
 document.addEventListener("DOMContentLoaded", function() {
     let bottom = document.querySelector(".bottom");
        let input = document.querySelector("#txt");
