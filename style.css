@@ -1,4 +1,4 @@
-/* Created by Dev Nasfam */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
 * {
@@ -99,7 +99,7 @@ main .bottom #input button:active {
   opacity: 0.4;
 }
 main .bottom::after {
-  content: "made by @devasfam";
+  content: "made by @obi simon";
   position: absolute;
   width: 100%;
   bottom: 4px;
