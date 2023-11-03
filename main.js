@@ -1,8 +1,4 @@
-require('dotenv').config();
-
-const api = process.env.MY_KEY;
-console.log("API Key:", api);
-
+const api ="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";
 document.addEventListener("DOMContentLoaded", function() {
     let bottom = document.querySelector(".bottom");
        let input = document.querySelector("#txt");
@@ -52,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 $(".msgs_cont").scrollTop($(".msgs_cont")[0].scrollHeight);
             }, 500);
             input.value = "";
-            sendbtn.disabled = true;
+            sendbtn.disabled = false;
             $(".msgs_cont").scrollTop($(".msgs_cont")[0].scrollHeight); fetch('https://api.openai.com/v1/chat/completions', options)
             .then(res => res.json())
 		.then(data => {
