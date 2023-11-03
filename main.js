@@ -1,4 +1,5 @@
-const api ="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";
+
+ api = config.MY_KEY;
 document.addEventListener("DOMContentLoaded", function() {
     let bottom = document.querySelector(".bottom");
        let input = document.querySelector("#txt");
